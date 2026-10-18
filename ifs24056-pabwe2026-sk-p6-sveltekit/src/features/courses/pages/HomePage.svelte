@@ -195,7 +195,7 @@
                 {/if}
                 <div class="p-4 flex-1 flex flex-col gap-2">
                   <span class="font-mono text-xs font-bold text-slate-400">{"#" + course.id}</span>
-                  <h3 class="font-bold text-slate-800 leading-snug">{course.title}</h3>
+                  <p class="font-bold text-slate-800 leading-snug">{course.title}</p>
                   <p class="text-xs text-slate-500 line-clamp-2">{course.description}</p>
                   <div class="mt-auto pt-3 inline-flex items-center gap-1.5">
                     <button
