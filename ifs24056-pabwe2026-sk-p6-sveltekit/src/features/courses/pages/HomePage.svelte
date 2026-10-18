@@ -114,7 +114,8 @@
       <div class="bg-white rounded-2xl p-5 border border-slate-200/80 shadow-xs flex items-center justify-between">
         <div>
           <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">Total Kursus</p>
-          <h3 data-testid="stat-total" class="text-3xl font-black text-slate-800 mt-1">{totalCount}</h3>
+          <!-- FIX: h3 diganti p -->
+          <p data-testid="stat-total" class="text-3xl font-black text-slate-800 mt-1">{totalCount}</p>
         </div>
         <div class="w-12 h-12 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
           <GraduationCap size={26} />
@@ -123,7 +124,8 @@
       <div class="bg-white rounded-2xl p-5 border border-slate-200/80 shadow-xs flex items-center justify-between">
         <div>
           <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">Milik Saya</p>
-          <h3 data-testid="stat-mine" class="text-3xl font-black text-emerald-600 mt-1">{mineCount}</h3>
+          <!-- FIX: h3 diganti p -->
+          <p data-testid="stat-mine" class="text-3xl font-black text-emerald-600 mt-1">{mineCount}</p>
         </div>
         <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
           <User size={26} />
